@@ -1,0 +1,8 @@
+version: "3.5"
+services:
+  spring-boot-2-hello-world:
+    container_name: spring-boot-2-hello-world
+    image: index.docker.io/korificf/spring-boot-2-hello-world:latest
+    ports:
+      - target: 8080
+        published: 8080

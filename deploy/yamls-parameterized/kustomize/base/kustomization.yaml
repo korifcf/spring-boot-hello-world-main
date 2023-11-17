@@ -1,0 +1,4 @@
+resources:
+  - index-docker-io-imagepullsecret-secret.yaml
+  - spring-boot-2-hello-world-deployment.yaml
+  - spring-boot-2-hello-world-service.yaml
